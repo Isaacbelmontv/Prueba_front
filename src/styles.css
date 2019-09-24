@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0 !important;
+  padding: 0;
+}
+
+li ,h1, p {
+  font-family: 'Oswald', sans-serif !important;
+  letter-spacing: 2px;
+}
+
+body {
+	background: #1f253d;
+}
+
+.centerFlex{
+  display: flex;
+  justify-content: center;
+}
